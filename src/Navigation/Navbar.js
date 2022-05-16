@@ -1,10 +1,10 @@
 import React from 'react'
-import {Navbar, Container, NavDropdown, Nav } from 'react-bootstrap'
+import {Navbar, Container, NavDropdown, Nav, Button } from 'react-bootstrap'
 export default function Navbar_site() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{height: "85px", boxShadow: "14px 14px 40px 0 rgb(118 126 173 / 95%);"}}>
     <Container>
-    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <Navbar.Brand href="#home"><img src={require('../images/churnr-logo.png')} style={{height: "25px"}}/></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="me-auto">
@@ -21,10 +21,7 @@ export default function Navbar_site() {
       </Nav>
       <Nav>
           
-        <Nav.Link href="#deets">More deets</Nav.Link>
-        <Nav.Link eventKey={2} href="#memes">
-          Dank memes
-        </Nav.Link>
+      <Button variant="success" size="m">Log ind</Button>
       </Nav>
     </Navbar.Collapse>
     </Container>
