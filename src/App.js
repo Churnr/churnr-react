@@ -1,30 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./Navigation/Navbar.js";
+import Navbar from "./components/global/Navbar.js";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Footer from "./components/global/Footer.js";
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload. Jeg skal lige se om det virker
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <div className='content'>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+          </Switch>
+        </div>
+        <Footer />
+      </div>
+    </Router>
   );
 }
-
-
 
 export default App;
