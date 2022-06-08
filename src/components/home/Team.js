@@ -1,5 +1,5 @@
 import React from 'react'
-export default function Navbar_site() {
+export default function Team() {
   return (
     <section id='team' className='frontpageheader'>
         <div className='wrapper'>

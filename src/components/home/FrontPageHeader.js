@@ -1,6 +1,6 @@
 import React from 'react'
 import {Button } from 'react-bootstrap'
-export default function Navbar_site() {
+export default function frontPageHeader() {
   return (
     <section className='frontpageheader'>
         <div className='wrapper'>

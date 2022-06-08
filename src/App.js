@@ -1,9 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/global/Navbar.js";
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Footer from "./components/global/Footer.js";
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import ScrollToTop from "./components/global/ScrollToTop.jsx";
 
 function App() {
   return (
@@ -11,12 +11,10 @@ function App() {
       <div className="App">
         <Navbar />
         <div className='content'>
+        <ScrollToTop/>
           <Switch>
             <Route exact path="/">
               <Home />
-            </Route>
-            <Route path="/about">
-              <About />
             </Route>
           </Switch>
         </div>

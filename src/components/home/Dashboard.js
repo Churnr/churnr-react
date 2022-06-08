@@ -1,5 +1,5 @@
 import React from 'react'
-export default function Navbar_site() {
+export default function Dashboard() {
   return (
     <section className='dashboard'>
         <div className='wrapper'>

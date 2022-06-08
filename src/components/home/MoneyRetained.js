@@ -1,5 +1,5 @@
 import React from 'react'
-export default function Navbar_site() {
+export default function MoneyRetained() {
   return (
     <section className='moneyretained'>
       <p>Indtil videre har vi fastholdt</p>

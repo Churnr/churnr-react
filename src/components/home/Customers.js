@@ -1,5 +1,5 @@
 import React from 'react'
-export default function Navbar_site() {
+export default function Customers() {
   return (
     <section className='customers'>
         <div className='wrapper'>
