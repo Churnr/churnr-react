@@ -5,12 +5,12 @@ export default function frontPageHeader() {
     <section className='frontpageheader'>
         <div className='wrapper'>
           <span>
-            <h1>We got 99 problems, but churn ain't one</h1>
+            <h1>Betalingsfejl skal ikke stoppe dig</h1>
             <p>Alle abonnementsvirksomheder mister kunder pga. betalingsfejl. Lad os hjælpe med at fastholde jeres abonnementskunder.</p>
-            <Button variant="success" size="lg">Vores løsning</Button>
-            <Button variant="outline-light" size="lg">Kontakt os</Button>
+            <Button variant="primary">Vores løsning</Button>
+            <Button variant="outline-light">Kontakt os</Button>
           </span>
-          <img src={require('../../images/test.png')} alt=""/>
+          <img src={require('../../images/mockup.png')} alt=""/>
         </div>
     </section>
   )

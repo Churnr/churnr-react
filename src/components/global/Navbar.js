@@ -6,7 +6,7 @@ export default function Navbar_site() {
   return (
     <Navbar collapseOnSelect expand="lg">
     <Container>
-    <Navbar.Brand as={Link} to="/"><img src={require('../../images/churnr-logo.png')} alt="" style={{height: "25px", margin: "0", padding: "0"}}/></Navbar.Brand>
+    <Navbar.Brand as={Link} to="/"><img src={require('../../images/churnr-logo-white.png')} alt="" style={{height: "25px", margin: "0", padding: "0"}}/></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="m-auto">
@@ -17,7 +17,7 @@ export default function Navbar_site() {
       </Nav>
       <Nav>
       <Nav.Link href="#">Log ind</Nav.Link>
-      <Button variant="success" size="m">Kontakt os</Button>
+      <Button variant="primary" size="m">Kontakt os</Button>
       </Nav>
     </Navbar.Collapse>
     </Container>

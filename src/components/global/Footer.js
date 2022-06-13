@@ -4,7 +4,7 @@ export default function Navbar_site() {
     <>
     <footer>
       <div>
-      <img src={require('../../images/churnr-logo.png')} alt="" style={{height: "35px", margin: "0", padding: "0"}}/>
+      <img src={require('../../images/churnr-logo-white.png')} alt="" style={{height: "35px", margin: "0", padding: "0"}}/>
       </div>
       <div>
       </div>
