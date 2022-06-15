@@ -14,7 +14,6 @@ body {
     box-shadow: rgb(0 0 0 / 10%) 0px 4px 4px !important;
     height: 105px;
     width: 100%;
-    position: fixed !important;
     background: #181818;
     z-index: 999;
 }
@@ -30,14 +29,20 @@ body {
 }
 
 .navbar-nav:nth-child(2) .nav-link {
-    padding: 0 30px 0 0  !important;
+    padding: 0 30px 0 0 !important;
 }
 
 .navbar-nav:nth-child(2) {
     display: contents;
 }
 
-.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
     width: 1100px;
 }
 
@@ -46,28 +51,31 @@ body {
 }
 
 .frontpageheader .wrapper {
-    height: 780px;
     width: 1100px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 0 auto;
-    padding-top: 105px; /* Bad padding fix... */
+    padding: 100px 0 50px 0;
+    /* Bad padding fix... */
 }
 
 .frontpageheader .wrapper h1 {
     font-size: 60px;
     font-weight: 700;
     width: 80%;
+    line-height: 1.25;
     color: #FFFFFF;
     font-family: 'Outfit', sans-serif;
 }
 
 .frontpageheader .wrapper p {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
     line-height: 2;
-    width: 80%;
+    width: 55%;
     margin: 35px 0 45px 0;
 }
 
@@ -217,4 +225,28 @@ footer p {
 
 .blue-highlight {
     color: #0D6EFD;
+}
+
+.problem .wrapper {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.problem .wrapper .parent {
+    overflow: none;
+}
+
+.box1 {
+    background-color: red;
+    background-image: url("/src/images/dashboard.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 1100px;
+    margin: 0 auto;
+    height: 618.75px;
+    top: 20%;
+    left: 40%;
+    transform-origin: -250% 50% 0px;
+    transform: translate3d(0px, -25px, 300px) rotateX(45deg);
 }

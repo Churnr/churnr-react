@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import FrontPageHeader from "../../src/components/home/FrontPageHeader";
 import Customers from "../../src/components/home/Customers";
-import Problem from "../../src/components/home/Problem";
+import DashboardMockup from "../components/home/DashboardMockup";
 import MoneyRetained from "../../src/components/home/MoneyRetained";
 import How from "../../src/components/home/How";
 import Dashboard from "../../src/components/home/Dashboard";
@@ -12,17 +12,17 @@ import CallToAction from "../../src/components/global/CallToAction";
 const Home = () => {
   return (
     <>
-    <FrontPageHeader/>
-    <Customers/>
-    <Problem/>
-    <MoneyRetained/>
-    <How/>
-    <Dashboard/>
-    <Pricing/>
-    <Team/>
-    <CallToAction/>
+      <FrontPageHeader />
+      <DashboardMockup />
+      <Customers />
+      <MoneyRetained />
+      <How />
+      <Dashboard />
+      <Pricing />
+      <Team />
+      <CallToAction />
     </>
-    );
+  );
 }
 
 export default Home;
