@@ -237,16 +237,69 @@ footer p {
 }
 
 .box1 {
-    background-color: red;
-    background-image: url("/src/images/dashboard.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
     width: 1100px;
     margin: 0 auto;
-    height: 618.75px;
+    height: auto;
     top: 20%;
     left: 40%;
     transform-origin: -250% 50% 0px;
     transform: translate3d(0px, -25px, 300px) rotateX(45deg);
+}
+
+.shine {
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #00FBDD), color-stop(.35, #76E395), color-stop(.5, #B6D359), color-stop(.65, #EDC601), color-stop(1, #FDB700));
+    background-size: 600% 600%;
+    -webkit-animation: Shine 5s ease infinite;
+    -moz-animation: Shine 5s ease infinite;
+    animation: Shine 5s ease infinite;
+    animation-delay: 0s;
+    animation-fill-mode: backwards
+}
+
+@-webkit-keyframes Shine {
+    0% {
+        background-position: 100% 50%
+    }
+
+    50% {
+        background-position: 0% 50%
+    }
+
+    100% {
+        background-position: 100% 50%
+    }
+}
+
+@-moz-keyframes Shine {
+    0% {
+        background-position: 0 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0 50%
+    }
+}
+
+@keyframes Shine {
+    0% {
+        background-position: 0 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0 50%
+    }
 }

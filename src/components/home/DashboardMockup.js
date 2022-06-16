@@ -29,7 +29,8 @@ export default function Problem() {
     <section id='problem' className='problem'>
       <div className='wrapper'>
         <div className="parent relative min-h-screen">
-          <div className="box1 absolute" ref={boxRef}></div>
+          <img src={require("../../images/dashboard.jpg")} alt="" className="box1 absolute" ref={boxRef} />
+          {/* <div className="box1 absolute" ref={boxRef}></div> */}
         </div>
       </div>
     </section>
