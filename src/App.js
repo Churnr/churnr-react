@@ -7,7 +7,7 @@ import ScrollToTop from "./components/global/ScrollToTop.jsx";
 
 function App() {
   return (
-    <Router>
+    <Router basename="churnr-react">
       <div className="App">
         <Navbar />
         <div className='content'>
