@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/churnr-react/static/css/main.208cbc31.css",
+    "main.js": "/churnr-react/static/js/main.e6de353f.js",
+    "static/js/787.8d0f77fe.chunk.js": "/churnr-react/static/js/787.8d0f77fe.chunk.js",
+    "static/media/dashboard.jpg": "/churnr-react/static/media/dashboard.e60e200381b6c25470e8.jpg",
+    "static/media/lalatoys.png": "/churnr-react/static/media/lalatoys.a03688342cff5bc2edcd.png",
+    "static/media/churnr-logo-white.png": "/churnr-react/static/media/churnr-logo-white.1b7a64945aad3392729b.png",
+    "static/media/spiritium.png": "/churnr-react/static/media/spiritium.4622c1569d26c99a6c61.png",
+    "static/media/lpc.png": "/churnr-react/static/media/lpc.2401f5b9848df79cb41f.png",
+    "index.html": "/churnr-react/index.html",
+    "main.208cbc31.css.map": "/churnr-react/static/css/main.208cbc31.css.map",
+    "main.e6de353f.js.map": "/churnr-react/static/js/main.e6de353f.js.map",
+    "787.8d0f77fe.chunk.js.map": "/churnr-react/static/js/787.8d0f77fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.208cbc31.css",
+    "static/js/main.e6de353f.js"
+  ]
+}
