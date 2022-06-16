@@ -14,11 +14,11 @@ const Home = () => {
     <>
       <FrontPageHeader />
       <DashboardMockup />
-      <Customers />
       <MoneyRetained />
       <How />
       <Dashboard />
       <Pricing />
+      <Customers />
       <Team />
       <CallToAction />
     </>

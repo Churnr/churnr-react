@@ -6,7 +6,7 @@ body {
 }
 
 .App {
-    background-color: #181818;
+    background-color: #252330;
     color: white;
 }
 
@@ -14,7 +14,7 @@ body {
     box-shadow: rgb(0 0 0 / 10%) 0px 4px 4px !important;
     height: 105px;
     width: 100%;
-    background: #181818;
+    background: #252330;
     z-index: 999;
 }
 
@@ -59,7 +59,6 @@ body {
     text-align: center;
     margin: 0 auto;
     padding: 100px 0 50px 0;
-    /* Bad padding fix... */
 }
 
 .frontpageheader .wrapper h1 {
@@ -103,7 +102,6 @@ body {
     background: rgb(10, 191, 83);
     background-color: #0D6EFD;
     padding: 150px 0;
-    border-radius: 30px;
     color: white;
 }
 
@@ -162,11 +160,10 @@ footer p {
     justify-content: space-between;
     padding-bottom: 75px;
     font-size: 12px;
-    color: #476788;
+    color: white;
 }
 
 .customers {
-    padding: 0px 0px 100px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,11 +183,12 @@ footer p {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding-top: 100px;
+    padding: 100px 0;
 }
 
 .customers .wrapper img {
     height: 75px;
+    opacity: .9;
 }
 
 .dashboard {
@@ -223,13 +221,10 @@ footer p {
     margin: 0 auto;
 }
 
-.blue-highlight {
-    color: #0D6EFD;
-}
-
 .problem .wrapper {
     width: 1100px;
     margin: 0 auto;
+    padding-bottom: 150px;
 }
 
 .problem .wrapper .parent {
@@ -302,4 +297,104 @@ footer p {
     100% {
         background-position: 0 50%
     }
+}
+
+.pricing .wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.pricing .wrapper h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.pricing .wrapper p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 50px 0 100px 0;
+    text-align: center;
+}
+
+.pricing .wrapper .pricing-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 25px;
+}
+
+.pricing .wrapper .pricing-cards .card {
+    color: white;
+    background-color: #3F3F49;
+    padding: 40px 30px;
+}
+
+.pricing .wrapper .pricing-cards .card:nth-of-type(1) {
+    color: black;
+    background-color: white;
+    padding: 40px 30px;
+}
+
+.pricing .wrapper .pricing-cards .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pricing .wrapper .pricing-cards .card h4 {
+    font-size: 18px;
+    opacity: .75;
+}
+
+.pricing .wrapper .pricing-cards .card h5 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.pricing .wrapper .pricing-cards .card button {
+    margin: 25px 0;
+    padding: 15px 0;
+}
+
+.pricing .wrapper .pricing-cards .card ul  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing .wrapper .pricing-cards .card ul li {
+    font-size: 18px;
+    line-height: 2;
+    opacity: .75;
+}
+
+.pricing .wrapper .pricing-cards .card ul li:before {
+    content: '✓';
+    margin-right: 10px;
+    font-weight: 700;
+    color: #09C677;
+}
+
+ .team .wrapper {
+    width: 1100px;
+    padding: 100px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.team .wrapper h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.team .wrapper p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 50px 0 100px 0;
+    text-align: center;
 }

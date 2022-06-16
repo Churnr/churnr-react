@@ -12,7 +12,7 @@ export default function Problem() {
       trigger: '.parent',
       pin: true,
       scrub: true,
-      start: "top top",
+      start: "0",
       end: "+=1000",
     }
   })

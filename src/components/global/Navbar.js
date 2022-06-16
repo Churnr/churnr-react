@@ -17,7 +17,7 @@ export default function Navbar_site() {
           </Nav>
           <Nav>
             <Nav.Link href="#">Log ind</Nav.Link>
-            <Button variant="primary" size="m">Kontakt os</Button>
+            <Button variant="primary" size="m" href="#contact">Kontakt os</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
