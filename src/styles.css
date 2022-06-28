@@ -119,16 +119,26 @@ body {
 }
 
 .moneyretained {
-    padding: 125px 0;
-    background-color: #0D6EFD;
+    padding: 100px 0;
+    width: 1100px;
+    margin: 0 auto;
+    background: linear-gradient(#8d49f7, #6b53ff);
+    border-radius: 2.6rem;
+    --gradient-rotation: 178.611deg;
     color: #ffffff;
     font-size: 18px;
     text-align: center;
 }
 
 .moneyretained h1 {
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 700;
+}
+
+.moneyretained p {
+    font-size: 21px;
+    padding: 0;
+    margin: 0;
 }
 
 footer {
@@ -259,7 +269,8 @@ footer p {
 
 @-webkit-keyframes Shine {
     0% {
-        background-position: 100% 50%
+        background-position: 100% 50%;
+        transform: rotate(0);
     }
 
     50% {
@@ -357,7 +368,7 @@ footer p {
     padding: 15px 0;
 }
 
-.pricing .wrapper .pricing-cards .card ul  {
+.pricing .wrapper .pricing-cards .card ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -376,7 +387,7 @@ footer p {
     color: #09C677;
 }
 
- .team .wrapper {
+.team .wrapper {
     width: 1100px;
     padding: 100px 0;
     margin: 0 auto;
@@ -393,7 +404,7 @@ footer p {
 }
 
 .team .wrapper p {
-    font-size: 20px;
+    font-size: 21px;
     line-height: 1.5;
     margin: 50px 0 100px 0;
     text-align: center;

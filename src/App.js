@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Footer from "./components/global/Footer.js";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ScrollToTop from "./components/global/ScrollToTop.jsx";
+import "./styles.css"
 
 function App() {
   return (

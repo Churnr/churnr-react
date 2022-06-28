@@ -16,7 +16,7 @@ export default function Navbar_site() {
             <Nav.Link href="#team">Om os</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#">Log ind</Nav.Link>
+            <Nav.Link href="https://churnr-system.web.app/" target="_blank">Log ind</Nav.Link>
             <Button variant="primary" size="m" href="#contact">Kontakt os</Button>
           </Nav>
         </Navbar.Collapse>
