@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif !important;
 }
 
 .App {
-    background-color: #252330;
+    background-color: #0c0d10;
     color: white;
 }
 
@@ -14,7 +13,7 @@ body {
     box-shadow: rgb(0 0 0 / 10%) 0px 4px 4px !important;
     height: 105px;
     width: 100%;
-    background: #252330;
+    background: #0c0d10;
     z-index: 999;
 }
 
@@ -87,40 +86,45 @@ body {
 }
 
 .calltoaction {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 1100px;
     font-size: 52;
-    margin-top: 150px;
-    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: linear-gradient(#8d49f7, #6b53ff);
+    --gradient-rotation: 178.611deg;
 }
 
 .calltoaction .wrapper {
-    width: 100%;
-    background: rgb(10, 191, 83);
-    background-color: #0D6EFD;
-    padding: 150px 0;
-    color: white;
+    padding: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .calltoaction h1 {
-    margin-bottom: 50px;
-    font-weight: 900;
-    letter-spacing: 0.5px;
+    font-weight: 700;
+    font-size: 36px;
 }
 
 .calltoaction p {
-    margin-bottom: 50px;
     font-weight: 400;
     font-size: 20px;
-    letter-spacing: 0.5px;
+}
+
+.calltoaction .btn {
+    height: fit-content;
 }
 
 .moneyretained {
-    padding: 100px 0;
+    padding: 150px 0;
+}
+
+.moneyretained .wrapper {
     width: 1100px;
+    padding: 100px 0;
+    margin: 150px 0;
     margin: 0 auto;
     background: linear-gradient(#8d49f7, #6b53ff);
     border-radius: 2.6rem;
@@ -217,7 +221,7 @@ footer p {
 }
 
 .dashboard .wrapper h2 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     margin-bottom: 50px;
 }
@@ -409,3 +413,98 @@ footer p {
     margin: 50px 0 100px 0;
     text-align: center;
 }
+
+.how {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.how-introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.how-introduction h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.how-introduction p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+    width: 50%;
+    line-height: 1.75;
+}
+
+.how .wrapper {
+    padding: 150px 0;
+}
+
+.how .wrapper .benefit-ribbon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 100px;
+}
+
+.how .wrapper .benefit-ribbon h2{
+    font-size: 26;
+    font-weight: bold;
+    margin: 30px 0 25px 0;
+}
+
+.how .wrapper .benefit-ribbon p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.how .wrapper .benefit-ribbon img {
+    height: 50px;
+}
+
+.mail-templates {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 0;
+}
+
+.mail-templates span {
+    width: 40%;
+}
+
+.mail-templates h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.mail-templates p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 30px 0;
+}
+
+.mail-templates img {
+    width: 50%;
+}
+
+.mail-templates ul {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+}
+
+.mail-templates li {
+    font-size: 20px;
+    line-height: 2.5;
+    font-weight: 400;
+}
+
+.mail-templates ul li:before {
+    content: '✓';
+    padding-right: 15px;
+    color: #09C677;
+  }
